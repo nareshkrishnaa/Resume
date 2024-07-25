@@ -45,3 +45,9 @@ screen and (min-width: 210mm) {
         margin: 0;
     }
 }
+
+.text-justify {
+    text-align: justify;
+    text-align-last: left;
+  }
+
