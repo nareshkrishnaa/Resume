@@ -24,7 +24,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     background-color: #ceccc825; /* Light gray shade */
-    box-shadow: 5px 5px 4px 1px rgba(136, 133, 133, 0.1);
+    /* box-shadow: 5px 5px 4px 1px rgba(136, 133, 133, 0.1); */
 
 }
 
