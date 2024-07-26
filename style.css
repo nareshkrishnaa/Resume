@@ -8,43 +8,39 @@
 /* Set content to fill the entire A4 page */
 html,
 body {
-    width: 210mm;
-    height: 297mm;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
 }
 
 /* Style content with shaded background */
 .content {
-    width: 100%;
-    /* Adjust the width as needed */
-    height: 100%;
-    /* Adjust the height as needed*/
+    width: 210mm;
+    height: 297mm;
     padding: 20px;
     box-sizing: border-box;
-    /* background-color: #f3edc465; */
-    /* Light gray shade */
+    background-color: #ceccc825; /* Light gray shade */
+    box-shadow: 5px 5px 4px 1px rgba(136, 133, 133, 0.1);
+
 }
 
 @media print,
 screen and (min-width: 210mm) {
-
-    
-
     html,
     body {
         font-family: "Fira Sans", sans-serif;
-        width: 210mm;
-        /* max-width: 210mm; */
-        height: 297mm;
-        max-height: 297mm;
+        /* width: 210mm;
+         max-width: 210mm; 
+         height: 297mm;
+        max-height: 297mm;  */
         padding: 0;
         margin: 0;
-        /* -webkit-print-color-adjust: exact;
-        print-color-adjust: exact; */
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
     }
 }
 
