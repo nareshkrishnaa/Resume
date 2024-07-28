@@ -19,6 +19,9 @@ body {
     font-size: 14px;
 }
 
+a{
+    color: rgb(85, 78, 184) !important;
+}
 a:hover{
   cursor: pointer;  
 }
@@ -80,4 +83,10 @@ hr.custom-margin {
 
 #svg_vercel{
     margin-top: -5px;
+}
+
+
+.iconQ{
+    position: relative;
+    top: 2px;
 }
