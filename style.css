@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /* Set content to fill the entire A4 page */
 html,
 body {
@@ -15,6 +16,11 @@ body {
     /* height: 100%; */
     margin: 0;
     padding: 0;
+    font-size: 14px;
+}
+
+a:hover{
+  cursor: pointer;  
 }
 
 /* Style content with shaded background */
@@ -23,7 +29,7 @@ body {
     height: 297mm;
     padding: 20px;
     box-sizing: border-box;
-    background-color: #ceccc825; /* Light gray shade */
+    /* background-color: #ceccc825;  */
     /* box-shadow: 5px 5px 4px 1px rgba(136, 133, 133, 0.1); */
 
 }
@@ -39,8 +45,8 @@ screen and (min-width: 210mm) {
         max-height: 297mm;  */
         padding: 0;
         margin: 0;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
+        /* -webkit-print-color-adjust: exact;
+        print-color-adjust: exact; */
     }
 }
 
